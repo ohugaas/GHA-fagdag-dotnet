@@ -19,7 +19,7 @@ jobs:
       - name: Setup DotNet Environment
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0
+          dotnet-version: '8.0.x'
 
       #Oppgave 4: Bygge koden :
       - name: Build the project
